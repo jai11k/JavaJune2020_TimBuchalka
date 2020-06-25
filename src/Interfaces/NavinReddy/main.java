@@ -1,4 +1,4 @@
-package NavinReddyInterface;
+package Interfaces.NavinReddy;
 
 public class main
 {

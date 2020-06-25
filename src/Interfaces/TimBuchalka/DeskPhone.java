@@ -1,4 +1,4 @@
-package Interfaces;
+package Interfaces.TimBuchalka;
 
 public class DeskPhone  implements ITtelephone
 {
