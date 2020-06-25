@@ -1,12 +1,13 @@
+package StaticKeyword.NavinReddy;
 
-class karan {
+class Empploye {
   private    static int eid;
     static int salary;
       static  String ceoName;
 
-    public karan(int eid,int salary) {
-        karan.eid=eid;
-        karan.salary=salary;
+    public Empploye(int eid, int salary) {
+        Empploye.eid=eid;
+        Empploye.salary=salary;
     }
 
     public static void show()
@@ -21,14 +22,14 @@ public class NaveenReddyStaticNonStaticDiff
 
     public static void main(String[] args) {
 
-        karan Employe1 = new karan(4450,1235);
-        Employe1.ceoName="Sidhu";
+        Empploye karan = new Empploye(4450,1235);
+        karan.ceoName="Sidhu";
 
-        karan Employe2=new karan(114,565865);
+        Empploye Employe2=new Empploye(114,565865);
 
         Employe2.ceoName="Aman";
 
-        Employe1.show();
+        karan.show();
         Employe2.show();
 
 
