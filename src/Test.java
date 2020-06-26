@@ -12,7 +12,6 @@ public class Test
         System.out.println("\n");
         System.out.printf("jatt is %s",s);
 
-
     }
 
 }

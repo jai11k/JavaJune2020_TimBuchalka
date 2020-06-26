@@ -1,4 +1,4 @@
-package AbstractClassTimBujalka;
+package AbstractClass.TimBhuchalka;
 
 public class Dog extends Animal
 {

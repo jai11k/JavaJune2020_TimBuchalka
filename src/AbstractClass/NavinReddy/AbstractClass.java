@@ -1,4 +1,4 @@
-package NavinReddyAbstractClass;
+package AbstractClass.NavinReddy;
 
 public class AbstractClass
 {

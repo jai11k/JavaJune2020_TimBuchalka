@@ -1,4 +1,4 @@
-package AbstractClassTimBujalka;
+package AbstractClass.TimBhuchalka;
 
  abstract public class Animal
 {
