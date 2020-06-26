@@ -13,6 +13,7 @@ public class Test
         System.out.printf("jatt is %s",s);
 
         System.out.println("test change from computer");
+        System.out.println("test change from computer");
 
     }
 
