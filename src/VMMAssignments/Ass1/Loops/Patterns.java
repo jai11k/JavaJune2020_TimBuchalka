@@ -124,4 +124,67 @@ public class Patterns
 
     }
 
+
+    private  static void pattern6()
+    {
+
+        for(int i = 1 ; i <= 5 ; i++)
+        {
+            for(int j = i ; j <= 5 ; j++)
+            {
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+    }
+
+    private static void pattern7()
+    {
+
+//        *****
+//        ****
+//        ***
+//           **
+//        *
+
+
+        for(int i=6-1;i>0;i--)
+        {
+            for (int j=i;j>0;j--)
+
+
+                System.out.print("*") ;
+
+            System.out.print("\n");
+
+        }
+
+    }
+
+    private static void pattern8()
+    {
+
+//        *****
+//        ****
+//        ***
+//           **
+//        *
+
+
+        for(int i=1;i<=5;i++)
+        {
+            for (int j=i;j<0;j++)
+
+
+                System.out.print("*") ;
+
+            System.out.print("\n");
+
+        }
+
+    }
+
+
 }
+
+
