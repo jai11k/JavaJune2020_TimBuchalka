@@ -12,13 +12,6 @@ public class Test
         System.out.println("\n");
         System.out.printf("jatt is %s",s);
 
-        System.out.println("test change from computer");
-        System.out.println("test change from computer");
-
-        System.out.println("test change from computer3");
-        System.out.println("test change from computer3");
-        System.out.println("test change from computer  4");
-
 
     }
 
