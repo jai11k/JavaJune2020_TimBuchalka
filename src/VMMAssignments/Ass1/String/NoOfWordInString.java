@@ -13,8 +13,10 @@ public class NoOfWordInString
         countWordsUsingSplit(s);
 
     }
-    public static int countWordsUsingSplit(String input) {
-        if (input == null || input.isEmpty()) {
+    public static int countWordsUsingSplit(String input)
+    {
+        if (input == null || input.isEmpty())
+        {
             return 0;
         }
 

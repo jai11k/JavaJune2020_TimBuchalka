@@ -1,6 +1,6 @@
 package VMMAssignments.Ass1.Loops;
 
-public class PrintSeriesReharsal
+public class PrintSeriesReversal
 {
 
 

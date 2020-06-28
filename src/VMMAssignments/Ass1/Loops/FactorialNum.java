@@ -11,7 +11,7 @@ public class FactorialNum
         int num;
         num=scanner.nextInt();
         scanner.nextLine();
-        System.out.println("Factorial of Number " +num+ " is " +factorial(num)  );
+        System.out.println("Factorial of Number -" +num+ " is " +factorial(num)  );
 
 
     }
