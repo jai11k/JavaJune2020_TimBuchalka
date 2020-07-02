@@ -3,7 +3,7 @@ package VMMAssignments.Ass1.Arrays;
 
 //WAP to accept a number from user and search it in the given list using binary search. 2, 3, 5, 10, 12, 16, 20, 23, 25, 32.
 
-public class Program4
+public class SearrchinngByBinarySearch
 {
     public static void main(String[] args)
     {
