@@ -3,7 +3,7 @@
 //public class MaatriixSumOfDiagnols
 //
 //{
-//    public static void main(String[] args) {
+//    public static void Main(String[] args) {
 //
 //
 //        int a[][] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
