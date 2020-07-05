@@ -2,26 +2,32 @@ package VMMAssignments.Ass1.String;
 
 import java.util.Scanner;
 
-public class NoOfWordInString
+public class NoOfCharInString
 {
     public static void main(String[] args)
     {
         Scanner scanner=new Scanner(System.in);
         String s;
+
         System.out.println("Enter the String..... ");
+
         s=scanner.nextLine();
-        countWordsUsingSplit(s);
+
+        System.out.println("total number of char are : "+s.length());
+
 
     }
-    public static int countWordsUsingSplit(String input)
+    public static int countChar(String input)
     {
-        if (input == null || input.isEmpty())
-        {
-            return 0;
-        }
+        int count=0;
 
-        String[] words = input.split("\\s+");
-        return words.length;
+       for (int i =0;i<input.length();i++)
+       {
+          count++;
+
+       }
+
+    return count ;
     }
 
 }
