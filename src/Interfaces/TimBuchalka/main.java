@@ -1,4 +1,4 @@
-//package Interfaces.TimBuchalka;
+//package Interfaces._Challenges.JavaCollections.HashSet.TimBuchalka;
 //
 //public class Main
 //{

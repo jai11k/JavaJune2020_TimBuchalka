@@ -25,7 +25,7 @@ public class ExceptionDemo
           }
           catch (ArrayIndexOutOfBoundsException e)
           {
-              System.out.println("Array can have only 4 elements" +e);
+              System.out.println("_Basic.Array can have only 4 elements" +e);
           }
         System.out.println(k);
 
