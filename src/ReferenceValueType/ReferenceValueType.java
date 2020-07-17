@@ -6,6 +6,7 @@ public class ReferenceValueType
 {
     public ReferenceValueType()
     {
+
         int myintValue=10;
         int AnotherIntvalue=myintValue;
         System.out.println("My int value = " +myintValue );
