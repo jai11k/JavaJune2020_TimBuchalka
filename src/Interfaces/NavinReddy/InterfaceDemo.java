@@ -1,6 +1,6 @@
 package Interfaces.NavinReddy;
 
-public interface ABC
+public interface InterfaceDemo
 {
     void show();
 }

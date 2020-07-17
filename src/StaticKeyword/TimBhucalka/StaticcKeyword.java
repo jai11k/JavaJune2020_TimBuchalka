@@ -7,18 +7,37 @@ public class StaticcKeyword
     {
         Calculator.printSum(55,45);
         printHello();
+
+
+         printSub newSub=new printSub();
+
+          int answer = newSub.ans(55,40);
+
+        System.out.println("answeer = " +answer);
+
+
+        System.out.println("\n \n This is the differnece of using static and non static keyword .Read whole pogram and you will find difference");
+
     }
 
         public static void printHello()
 
         {
-            System.out.println("Hello");
+            System.out.println("Hello,This is the suum....!!!!");
 
         }
     }
 
+class printSub
+{
 
 
+    public int ans(int a, int b)
+    {
+
+        return (a-b);
+    }
+}
 
 class Calculator
 {

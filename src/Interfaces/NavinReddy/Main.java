@@ -1,10 +1,10 @@
 package Interfaces.NavinReddy;
 
-public class main
+public class Main
 {
     public static void main(String[] args)
     {
-            xyz obj=new xyz()
+            ClassDemo obj=new ClassDemo()
         {
             public void show()
             {
