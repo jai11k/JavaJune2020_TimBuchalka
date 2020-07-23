@@ -7,6 +7,8 @@ package AbstractClass.TimBhuchalka;
     public Animal(String name) {
         this.name = name;
     }
+
+
     abstract public void eat();
     abstract public void breathe();
 

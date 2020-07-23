@@ -24,4 +24,6 @@ public class fr01 extends Frame
     {
         fr01 obj=new fr01();
     }
+
 }
+

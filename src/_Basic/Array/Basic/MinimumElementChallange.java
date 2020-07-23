@@ -6,7 +6,7 @@ public class MinimumElementChallange
 {
     public static void main(String[] args)
     {
-        System.out.println("Enter a count ");
+        System.out.println("Enter a    count ");
         int count= scanner.nextInt();
         scanner.nextLine();
         int[] returnedArray = readIntegers(count);
