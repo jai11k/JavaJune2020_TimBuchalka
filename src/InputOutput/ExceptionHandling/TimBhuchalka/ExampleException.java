@@ -1,4 +1,4 @@
-package ExceptionHandling.TimBhuchalka;
+package InputOutput.ExceptionHandling.TimBhuchalka;
 
 import java.util.InputMismatchException;
 import java.util.NoSuchElementException;

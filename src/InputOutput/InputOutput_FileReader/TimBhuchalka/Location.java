@@ -1,4 +1,4 @@
-package InputOutput.TimBhuchalka;
+package InputOutput.InputOutput_FileReader.TimBhuchalka;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -21,7 +21,6 @@ public class Location {
     }
 
 
-
     public int getLocationID() {
         return locationID;
     }
@@ -34,3 +33,4 @@ public class Location {
         return new HashMap<String, Integer>(exits);
     }
 }
+
