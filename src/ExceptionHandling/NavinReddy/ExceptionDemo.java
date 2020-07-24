@@ -1,4 +1,4 @@
-package InputOutput.ExceptionHandling.NavinReddy;
+package ExceptionHandling.NavinReddy;
 
 public class ExceptionDemo
 {

@@ -28,7 +28,7 @@ public class fr10 extends Frame implements ActionListener,ItemListener
         tf.setBounds(100,100,150,25);
         bt.setBounds(270,100,150,25);
         bt2.setBounds(270,150,150,25);
-        lb.setBounds(100,400,200,30);
+        lb.setBounds(100,250,200,30);
 
         add(lt);
         add(tf);
@@ -53,7 +53,7 @@ public class fr10 extends Frame implements ActionListener,ItemListener
             String p=tf.getText();
             lt.add(p);
             tf.setText("");
-            tf.requestFocus();
+           tf.requestFocus();
         }
         else if(e.getSource()==bt2)   //Remove
         {

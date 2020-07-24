@@ -4,7 +4,7 @@ package GUI._BasicWithoutDragAndDrop_Awt;
 import java.awt.*;
 import java.awt.event.*;
 
-public class fr03 extends Frame implements ActionListener
+public class fr03 extends Frame  implements ActionListener
 {
     TextField tf;
     Button bt;
@@ -22,20 +22,21 @@ public class fr03 extends Frame implements ActionListener
         //Register ActionListener with Button
         bt.addActionListener(this);
 
+
         setTitle("Component Based GUI");
         setSize(600,400);
         setVisible(true);
     }
 
-    @Override
-    public void actionPerformed(ActionEvent e)
-    {
-        //Logic
-        tf.setText(Math.random()+"");
-    }
 
     public static void main(String[] args)
     {
         fr03 obj=new fr03();
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent e)
+    {
+        tf.setText(Math.random()+"");
     }
 }
