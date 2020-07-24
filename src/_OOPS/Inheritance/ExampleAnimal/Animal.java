@@ -8,7 +8,8 @@ public class Animal
     private  int weight;
     private String name;
 
-    public Animal(int brain, int body, int size, int weight, String name) {
+    public Animal(int brain, int body, int size, int weight, String name)
+    {
         this.brain = brain;
         this.body = body;
         this.size = size;
@@ -25,7 +26,8 @@ public class Animal
          System.out.println("Animal is moving at " +speed);
      }
 
-    public int getBrain() {
+    public int getBrain()
+    {
         return brain;
     }
 
