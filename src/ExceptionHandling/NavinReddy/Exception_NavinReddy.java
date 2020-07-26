@@ -1,6 +1,6 @@
 package ExceptionHandling.NavinReddy;
 
-public class ExceptionDemo
+public class Exception_NavinReddy
 {
     public static void main(String[] args)
     {
