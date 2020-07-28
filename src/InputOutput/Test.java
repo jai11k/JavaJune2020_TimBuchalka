@@ -22,7 +22,7 @@ class SystemUnderTest
 
 //        ClassLoader classLoader = getClass().getClassLoader();
 //        File fi = new File(classLoader.getResource("test.txt").getFile());
-//
+
 //        String file = getClass().getClassLoader().getResource("application.yaml").getPath();
 
     }
