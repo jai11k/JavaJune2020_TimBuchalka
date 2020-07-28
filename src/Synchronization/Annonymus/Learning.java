@@ -36,7 +36,8 @@ class MyThread2 extends Thread{
     }
 }
 
-public class Learning{
+public class Learning
+{
     public static void main(String args[]){
         Table obj = new Table();
         MyThread1 t1=new MyThread1(obj);
