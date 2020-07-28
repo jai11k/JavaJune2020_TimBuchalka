@@ -10,7 +10,8 @@ package Synchronization.NavinReddy;
    }
 public class SynchronizationLearning
 {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException
+    {
         Test t1=new Test();
 
         Thread obj1 =new Thread(new Runnable()
