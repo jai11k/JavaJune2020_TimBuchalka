@@ -26,7 +26,7 @@ public class fr14 extends Frame implements MouseListener
        bt.addMouseListener(this);
        
        setTitle("Component Based GUI");
-       setSize(600,400);
+       setSize(600,700);
        setVisible(true);      
     } 
     

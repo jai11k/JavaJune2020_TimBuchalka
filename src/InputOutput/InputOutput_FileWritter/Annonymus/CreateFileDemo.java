@@ -3,7 +3,7 @@ package InputOutput.InputOutput_FileWritter.Annonymus;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class CreateFile
+public class CreateFileDemo
 {
     public static void main(String[] args) throws IOException {
         String sr="File Handling in Java " + "using File Writter..";

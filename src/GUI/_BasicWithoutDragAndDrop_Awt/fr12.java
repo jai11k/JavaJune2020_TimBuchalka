@@ -42,7 +42,7 @@ public class fr12 extends Frame implements WindowListener
     @Override
     public void windowClosing(WindowEvent e)
     {
-       dispose();        
+       dispose();
     }
     
     @Override

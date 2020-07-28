@@ -1,14 +1,15 @@
 package InputOutput.InputOutput_FileReader.TimBhuchalka;
 
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
 
-public class Locations implements Map<Integer, Location> {
+public class Locations implements Map<Integer, Location>
+{
     private static Map<Integer, Location> locations = new HashMap<Integer, Location>();
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
 
 
     }
@@ -30,10 +31,13 @@ public class Locations implements Map<Integer, Location> {
 
             }
 
-        }catch (IOException e)
+        }
+        catch (IOException e)
         {
             e.printStackTrace();
-        }finally {
+        }
+        finally
+        {
             if (scanner!=null)
             {
                 scanner.close();
@@ -81,7 +85,8 @@ public class Locations implements Map<Integer, Location> {
     }
 
     @Override
-    public void clear() {
+    public void clear()
+    {
         locations.clear();
 
     }
