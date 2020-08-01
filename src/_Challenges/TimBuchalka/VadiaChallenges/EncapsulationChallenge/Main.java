@@ -1,4 +1,4 @@
-package _OOPS.Encapuslation.Example2;
+package _Challenges.TimBuchalka.VadiaChallenges.EncapsulationChallenge;
 
 public class Main
 {

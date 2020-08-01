@@ -1,4 +1,4 @@
-package _OOPS.Composition.Example2;
+package _Challenges.TimBuchalka.VadiaChallenges.CompositionChallenge;
 
 public class LearningComposition2 {
     public static void main(String[] args)

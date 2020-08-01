@@ -1,4 +1,4 @@
-package _OOPS.Composition.Example2;
+package _Challenges.TimBuchalka.VadiaChallenges.CompositionChallenge;
 
 /**
  * Created by dev on 16/07/15.
