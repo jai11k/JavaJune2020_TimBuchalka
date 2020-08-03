@@ -14,7 +14,7 @@ public class LambdaTest
 
                 A obj1= (int i) ->
                 {
-                    System.out.println(i + " hello");
+                    System.out.println(i + " /n hello");
                 };
 
                 obj1.show(6);
