@@ -1,16 +1,12 @@
 package Interfaces.TimBuchalka;
 
-public class DeskPhone  implements ITtelephone
+public class DeskPhone implements ITtelephone
 {
-    private int MyNumber;
+    private int myNumber;
     private boolean isRinging;
 
-    public DeskPhone(int myNumber) {
-        MyNumber = myNumber;
-    }
-
     @Override
-    public void powerOn()
+            public void powerOn()
     {
         System.out.println("No action taken, DeskPhone doesnt have a power button " );
 
@@ -36,7 +32,7 @@ public class DeskPhone  implements ITtelephone
 
     @Override
     public boolean callPhone(int PhoneNUmber) {
-        if (PhoneNUmber==MyNumber){
+        if (PhoneNUmber== myNumber){
         isRinging=true;
             System.out.println("Ring Ring");
         }else

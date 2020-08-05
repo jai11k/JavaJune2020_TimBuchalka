@@ -10,7 +10,7 @@ package _Challenges.VMMAssignments.Ass1.Arrays;
 //{
 //    public static void Learning_Constructor(String[] args)
 //    {
-//        int[] _Basic.Array={7, 9, 6, 10, 2, 1, 3, 5, 8, 4};
+//        int[] _Basic.Array= {7, 9, 6, 10, 2, 1, 3, 5, 8, 4};
 //        for(int i=0;i<=_Basic.Array.length;i++)
 //        {
 //            System.out.println("Elements are :{" + _Basic.Array[i] + "}");
@@ -31,4 +31,4 @@ package _Challenges.VMMAssignments.Ass1.Arrays;
 //
 //    }
 //}
-
+//
