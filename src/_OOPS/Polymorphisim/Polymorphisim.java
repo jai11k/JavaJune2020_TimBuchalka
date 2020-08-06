@@ -6,7 +6,8 @@ public class Polymorphisim
 
     public Polymorphisim()
     {
-        //hlo
+        //hlo..
+
         for (int i =1;i<=11;i++)
         {
             Movie movie=randomMovie();
