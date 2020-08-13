@@ -17,6 +17,7 @@ public class AbstractClass
     {
         public void call()
         {
+
             System.out.println("Call method runs...");
         }
          public abstract  void move();

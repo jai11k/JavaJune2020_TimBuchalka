@@ -66,6 +66,7 @@ class ChakDeFatte extends Movie
 {
     public ChakDeFatte()
     {
+
         super("ChakDeFatte");
     }
 
