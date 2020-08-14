@@ -1,18 +1,20 @@
 package _Basic.StaticKeyword.NavinReddy;
 
-class Empploye {
-  private    static int eid;
-    static int salary;
-      static  String ceoName;
+class Employee
+{
+                int EmpID;
+                int salary;
+         static  String ceoName="Karanbir Singh";
 
-    public Empploye(int eid, int salary) {
-        Empploye.eid=eid;
-        Empploye.salary=salary;
+    public Employee(int empID, int salary)
+    {
+        EmpID = empID;
+        this.salary = salary;
     }
 
-    public static void show()
+    public  void show()
     {
-        System.out.println( eid+ ";" +salary+ " = " +ceoName+ " =");
+        System.out.println("Employe ID = " + EmpID + "; Salary = " +salary + "; CEO name = " +ceoName);
     }
 }
 
@@ -20,18 +22,21 @@ public class NaveenReddyStaticNonStaticDiff
 {
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
 
-        Empploye karan = new Empploye(4450,1235);
-        karan.ceoName="Sidhu";
+        Employee karan = new Employee(001,26532);
 
-        Empploye Employe2=new Empploye(114,565865);
+            Employee Employe2=new Employee(002,95000);
 
-        Employe2.ceoName="Aman";
+
 
         karan.show();
-        Employe2.show();
+
+  Employe2.show();
 
 
     }
 }
+
+
