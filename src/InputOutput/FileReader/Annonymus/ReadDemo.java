@@ -12,8 +12,6 @@ public class ReadDemo
 
         String currentDir = System.getProperty("user.dir");
 
-        System.out.println(currentDir+"");
-        System.out.println(currentDir+"/src/InputOutput/RequiredTextFiles/");
 
         String path=currentDir+"/src/InputOutput/RequiredTextFiles/";
 
