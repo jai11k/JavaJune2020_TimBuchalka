@@ -13,11 +13,7 @@ public class Locations implements Map<Integer, Location> {
     public static void main(String[] args) {
         FileWriter locfile=null;
         try{
-            String currentDir = System.getProperty("user.dir");
-
-
-            locfile=new FileWriter(System.getProperty("user.dir")+"/src/InputOutput/RequiredTextFiles/location.txt");
-
+            locfile=new FileWriter("locations.txt");
             for (Location location:locations.values())
             {
                 locfile.write(location.getLocationID()+ "," + location.getDescription()+ "\n");
