@@ -6,6 +6,16 @@ import java.util.Set;
 
 public class MapDemo
 {
+    //region jaankari
+
+    /*
+
+    Map ki hunda??
+
+    Set ki hunda??
+     */
+    //endregion
+
     public static void main(String[] args)
     {
         Map<Integer,String> bio=new HashMap<>();
@@ -20,7 +30,6 @@ public class MapDemo
         for (Integer names: name)
         {
             System.out.println(bio.get(names));
-
         }
 
 
