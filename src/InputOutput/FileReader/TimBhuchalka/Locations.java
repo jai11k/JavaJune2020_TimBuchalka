@@ -18,6 +18,7 @@ public class Locations implements Map<Integer, Location>
     {
         Scanner scanner=null;
         try {
+
             scanner=new Scanner(new FileReader(System.getProperty("user.dir")+"/src/InputOutput/RequiredTextFiles/location.txt"));
             scanner.useDelimiter(",");
             while(scanner.hasNextLine())
