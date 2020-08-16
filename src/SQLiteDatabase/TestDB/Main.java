@@ -21,6 +21,7 @@ public class Main
 //             statement.execute("INSERT INTO contacts(Name,Phone,Email) VALUES('Harman',5498645,'karan3@gmail.com') ");
 //             statement.execute("INSERT INTO contacts(Name,Phone,Email) VALUES('Anmol',5495645,'karan4@gmail.com') ");
 //             statement.execute("UPDATE contacts SET Phone=981533 WHERE Name='Karan'");
+
              statement.execute("DELETE FROM contacts WHERE Name= 'Anmol' ");
             statement.close();
              conn.close();
