@@ -6,12 +6,16 @@ import java.util.List;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
 	    Theatre theatre = new Theatre("Olympian", 8, 12);
 
-        if(theatre.reserveSeat("D12")) {
+        if(theatre.reserveSeat("D12"))
+        {
             System.out.println("Please pay for D12");
-        } else {
+        }
+        else
+        {
             System.out.println("Seat already reserved");
         }
 
@@ -40,7 +44,8 @@ public class Main {
     }
 
 
-    public static void printList(List<Theatre.Seat> list) {
+    public static void printList(List<Theatre.Seat> list)
+    {
         for(Theatre.Seat seat : list) {
             System.out.print(" " + seat.getSeatNumber() + " $" + seat.getPrice());
         }
