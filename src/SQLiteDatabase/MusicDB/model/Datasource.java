@@ -4,12 +4,13 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Datasource {
+public class Datasource
+{
 
     public static final String DB_NAME = "music.db";
 
 
-    public static final String CONNECTION_STRING = "jdbc:sqlite:C:\\Users\\karan\\IdeaProjects\\JavaJune2020_TimBuchalka\\src\\SQLiteDatabase\\MusicDB\\model\\ " + DB_NAME;
+    public static final String CONNECTION_STRING = "jdbc:sqlite:C:\\Users\\karan\\IdeaProjects\\JavaJune2020_TimBuchalka\\src\\SQLiteDatabase\\MusicDB\\ " + DB_NAME;
 
     public static final String TABLE_ALBUMS = "albums";
     public static final String COLUMN_ALBUM_ID = "_id";
@@ -68,6 +69,7 @@ public class Datasource {
     public boolean open() {
         try {
             conn = DriverManager.getConnection(CONNECTION_STRING);
+            System.out.println("conn->"+CONNECTION_STRING);
             return true;
         } catch(SQLException e) {
             System.out.println("Couldn't connect to database: " + e.getMessage());
@@ -99,7 +101,7 @@ public class Datasource {
                 sb.append("ASC");
             }
         }
-
+        System.out.println("---->"+sb);
         try(Statement statement = conn.createStatement();
             ResultSet results = statement.executeQuery(sb.toString())) {
 
