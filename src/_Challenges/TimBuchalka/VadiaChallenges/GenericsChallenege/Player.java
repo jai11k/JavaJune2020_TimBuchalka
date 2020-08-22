@@ -1,4 +1,4 @@
-package _Challenges.TimBuchalka.VadiaChallenges.GenericsChalleneg;
+package _Challenges.TimBuchalka.VadiaChallenges.GenericsChallenege;
 
 public  abstract class Player
 {

@@ -8,9 +8,9 @@ import java.sql.Statement;
 
 public class Main
 {
-     static String currentDir = System.getProperty("user.dir");
+     static   String currentDir = System.getProperty("user.dir");
     public static final String DB_Name ="testjava1.db";
-    public static final String Connection_String="jdbc:sqlite:"+currentDir+"\\src\\SQLiteDatabase\\TestDB\\" +DB_Name ;
+    public static final String Connection_String="jdbc:sqlite: "+currentDir+"\\src\\SQLiteDatabase\\TestDB\\" +DB_Name ;
     public static final String Table_Contact="NewContacts";
     public static final String Column_Name= "name";
     public static final String Column_Email="Email";
