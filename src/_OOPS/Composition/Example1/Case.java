@@ -19,3 +19,11 @@ public class Case {
 
 
 }
+  //region
+/*
+In inheritance we inherit the features of parent class in child class.
+But in composition ,we can define a type of which we want to use  and can hold different implemnentation.
+In the given example it consists of motherboard , case , a monitor,PC,etc are the part of PC but not the PC.WHereas in Inheritance we c
+create a parent classs of vehicle and inhgerits in sub class "Car".
+ */
+//endregion

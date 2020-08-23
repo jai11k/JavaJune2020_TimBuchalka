@@ -1,4 +1,4 @@
-package SQLiteDatabase.music_db;
+package SQLiteDatabase.Music_DB;
 
 import java.util.List;
 

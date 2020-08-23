@@ -1,5 +1,16 @@
 package _Basic.Array.Basic;
 
+
+
+//region
+/*
+Arrays are the data structiure whcih stores fix size collecttion of elements of same type .An array is used to store
+primitive type
+It always start from 0.
+
+
+ */
+//endregion
 import java.util.Arrays;
 import java.util.Scanner;
 

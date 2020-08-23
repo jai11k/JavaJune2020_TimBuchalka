@@ -1,5 +1,12 @@
 package _OOPS.Polymorphisim;
+//region
+/*
+Polymorphism is the ability of an object to take many forms.
+Poly means Many and morps means forms
+a prent class refernce can refers child class instance in it but not vice versa.
 
+ */
+//endregion
 
 public class Polymorphisim
 {

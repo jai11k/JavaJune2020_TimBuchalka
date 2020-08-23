@@ -1,5 +1,19 @@
 package _Basic.StaticKeyword.TimBhucalka;
 
+
+
+//region
+/*
+Static in java is a keyword with member functions or variables of classs .
+We  can call those members without using the object
+
+static variables are those variables whichg are same for all the ojects.
+
+static keywords are call at the first even before the constructors.
+
+ */
+//endregion
+
 public class StaticcKeyword
 {
 

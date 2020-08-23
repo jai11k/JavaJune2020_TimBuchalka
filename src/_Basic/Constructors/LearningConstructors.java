@@ -19,3 +19,16 @@ public class LearningConstructors
 
     }
 }
+//region
+/*
+CLass is a user defined Blueprint from which objects are created.it represents the set of methods
+that are common to all objects of one type.
+
+
+Objects is an instance of the class.
+
+Constructors is  special method which is used tto  initializze objects.
+constructors is called when objects of class is created It has no return type.it is called at the time of execution.
+
+ */
+//endregion

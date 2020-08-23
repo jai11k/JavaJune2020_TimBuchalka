@@ -13,3 +13,14 @@ public class WrapperDemo
 
     }
 }
+
+
+//region
+/*
+Autoboxing is the conversion of a primitive value into the object of wrapper class.
+Eg - converting int class to Integer class.
+
+Unboxing is the conversion of objects of wrapping class into primitve value.
+
+ */
+//endregion

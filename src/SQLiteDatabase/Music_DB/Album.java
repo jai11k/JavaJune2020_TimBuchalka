@@ -1,10 +1,9 @@
-package SQLiteDatabase.music_db;
-
-
-public class Artist {
+package SQLiteDatabase.Music_DB;
+public class Album {
 
     private int id;
     private String name;
+    private int artistId;
 
     public int getId() {
         return id;
@@ -20,5 +19,13 @@ public class Artist {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public int getArtistId() {
+        return artistId;
+    }
+
+    public void setArtistId(int artistId) {
+        this.artistId = artistId;
     }
 }

@@ -20,3 +20,10 @@ public class SetDemo
     }
 }
 
+//region
+/*
+A HashSet is a collection of items where every item is unique.
+The HashSet class has many useful methods. For example, to add items to it, use the add() method:
+To remove an item, use the remove() method:
+ */
+//endregion

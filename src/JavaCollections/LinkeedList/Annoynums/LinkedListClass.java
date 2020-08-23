@@ -24,3 +24,16 @@ public class LinkedListClass
 
     }
 }
+
+//region
+/*
+The LinkedList class is a collection which can contain many objects of the same type, just like the ArrayList.
+Linked list uses doubly linked list to stroe elements.It inherits Abstract list class and
+implements list.It follows double linked list concept
+In linked list Object refrence is stored in a seperate link.
+The LinkedList stores its items in "containers."
+The list has a link to the first container and each container has a link to the next container in the list.
+To add an element to the list, the element is placed into a new container and that container is linked to one of the other containers in the list.
+
+list*/
+//endregion

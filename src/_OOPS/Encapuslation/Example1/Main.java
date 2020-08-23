@@ -20,3 +20,8 @@ public class Main
         System.out.println( "Remaining health = "+player.healthRemaining());
     }
 }
+//region
+/*
+Encapsulation is the mechanism that allows  us to restrict  acess to certain components in the objects that
+we are creating .We can keep thinggs confined and protect the members of the class and some methods from external access.
+ */

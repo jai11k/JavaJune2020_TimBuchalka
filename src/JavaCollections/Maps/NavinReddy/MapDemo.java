@@ -12,7 +12,10 @@ public class MapDemo
 
     Map ki hunda??
 
-    Set ki hunda??
+   Map contains values on the basis of key.Each map contains a key and a pair value.
+   each key is a  unique value .Map is useful if you want to search update or delete
+   elements on the basis of key.
+
      */
     //endregion
 
