@@ -1,13 +1,10 @@
 package SQLiteDatabase.music_db;
 
-
-
 import java.util.List;
 
 public class Main {
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Datasource datasource = new Datasource();
         if(!datasource.open()) {
             System.out.println("Can't open datasource");
@@ -50,18 +47,23 @@ public class Main {
 
         datasource.createViewForSongArtists();
 
-        songArtists = datasource.querySongInfoView("She's On Fire");
-        if(songArtists.isEmpty()) {
-            System.out.println("Couldn't find the artist for the song");
-            return;
-        }
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Enter a song title: ");
+//        String title = scanner.nextLine();
 
-        for(SongArtist artist : songArtists) {
-            System.out.println("FROM VIEW - Artist name = " + artist.getArtistName() +
-                " Album name = " + artist.getAlbumName() +
-                " Track number = " + artist.getTrack());
-        }
+//        songArtists = datasource.querySongInfoView(title);
+//        if(songArtists.isEmpty()) {
+//            System.out.println("Couldn't find the artist for the song");
+//            return;
+//        }
+//
+//        for(SongArtist artist : songArtists) {
+//            System.out.println("FROM VIEW - Artist name = " + artist.getArtistName() +
+//                " Album name = " + artist.getAlbumName() +
+//                " Track number = " + artist.getTrack());
+//        }
 
+        datasource.insertSong("Bird Dog", "Everly Brothers", "All-Time Greatest Hits", 7);
         datasource.close();
     }
 }
