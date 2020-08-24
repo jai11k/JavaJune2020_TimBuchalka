@@ -1,5 +1,17 @@
 package _Basic.ArrayList;
 
+//region
+/*
+Arraylist is the dynamic form of the array.It maintains insertion order and can
+have duplicate elements as well.It has no size limit .We can add or remove elements anytime.
+
+
+
+
+
+ */
+//endregion
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
