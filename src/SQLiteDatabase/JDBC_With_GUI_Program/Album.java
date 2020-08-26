@@ -1,66 +1,31 @@
 package SQLiteDatabase.JDBC_With_GUI_Program;
+public class Album {
 
-
-public class Album
-{
-
-    private final SimpleIntegerProperty id;
-    private final SimpleStringProperty name;
-    private final SimpleIntegerProperty artistId;
-
-    public Album() {
-        this.id = new SimpleIntegerProperty();
-        this.name = new SimpleStringProperty();
-        this.artistId = new SimpleIntegerProperty();
-    }
+    private int id;
+    private String name;
+    private int artistId;
 
     public int getId() {
-        return id.get();
+        return id;
     }
 
-    public void setId(int id)
-    {
-
-        this.id.set(id);
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {
-
-        return name.get();
+        return name;
     }
 
     public void setName(String name) {
-
-        this.name.set(name);
+        this.name = name;
     }
 
     public int getArtistId() {
-
-        return artistId.get();
+        return artistId;
     }
 
     public void setArtistId(int artistId) {
-        this.artistId.set(artistId);
+        this.artistId = artistId;
     }
-
-    private class SimpleStringProperty {
-        public void set(String name) {
-        }
-
-        public String get() {
-            return null;
-        }
-    }
-     private class SimpleIntegerProperty
-     {
-         public void set(int id)
-         {}
-
-         public int get()
-         {
-             return 0;
-         }
-     }
-     }
-
-
+}
