@@ -7,8 +7,7 @@ import java.util.Scanner;
 public class Main {
     private static Map<Integer, Location> locations = new HashMap<Integer, Location>();
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
 
